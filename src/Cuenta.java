@@ -5,5 +5,9 @@ class Cuenta {
     int numero;
     String titular;
 
+    void depositar(double valor){
+
+    }
+
 }
 
