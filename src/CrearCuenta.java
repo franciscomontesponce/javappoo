@@ -12,5 +12,11 @@ public class CrearCuenta {
 
         segundaCuenta.saldo = 500;
         System.out.println(segundaCuenta.saldo);
+
+        if (primeraCuenta == segundaCuenta) {
+            System.out.println("Si, primeraCuenta y segundaCuenta son iguales");
+        }else{
+            System.out.println("No, primeraCuenta y segundaCuenta no son iguales");
+        }
     }
 }
