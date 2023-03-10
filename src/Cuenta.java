@@ -18,5 +18,15 @@ class Cuenta {
         }
     }
 
+    public boolean transferir (double valor, Cuenta cuenta){
+        if(this.saldo >= valor){
+            this.saldo = this.saldo - valor;
+            cuenta.saldo = cuenta.saldo + valor;
+            return true;
+        }else{
+            return false;
+        }
+    }
+
 }
 
