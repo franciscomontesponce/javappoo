@@ -9,5 +9,11 @@ public class PruebaMetodos {
         miCuenta.saldo = 300;
         System.out.println(miCuenta.saldo);
 
+        miCuenta.depositar(200);
+        System.out.println(miCuenta.saldo);
+
+        miCuenta.retirar(100);
+        System.out.println(miCuenta.saldo);
+
     }
 }
